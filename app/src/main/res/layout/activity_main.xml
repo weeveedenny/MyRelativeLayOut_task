@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+android:scrollbars="none" >
+
+
+    <RelativeLayout
+        android:id="@+id/myRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:padding="5dp">
+
+
+
+        <View
+            android:id="@+id/First"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/black"
+            android:layout_marginBottom="5dp"
+
+
+            />
+
+        <View
+            android:id="@+id/Second"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/First"
+            android:background="#7FFF00"
+            android:layout_marginBottom="5dp"
+
+
+            />
+
+        <View
+            android:id="@+id/Third"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@id/Second"
+            android:background="@color/teal_200"
+            android:layout_marginBottom="5dp"
+
+
+            />
+
+        <View
+            android:id="@+id/Forth"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_below="@id/Third"
+            android:background="@color/purple_700"
+            android:layout_marginBottom="5dp"
+
+
+            />
+
+        <View
+            android:id="@+id/Fifth"
+            android:layout_width="match_parent"
+            android:layout_height="301dp"
+            android:layout_below="@id/Forth"
+            android:layout_marginBottom="7dp"
+
+            android:background="#FFFF00" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
